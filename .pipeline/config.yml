@@ -1,0 +1,13 @@
+steps:
+  integrationArtifactDeploy:
+    cpiApiServiceKeyCredentialsId: wlgore-s
+    integrationFlowId: kkovelam-flow4
+  integrationArtifactGetMplStatus:
+    cpiApiServiceKeyCredentialsId: wlgore-s
+    integrationFlowId: kkovelam-flow4
+  integrationArtifactUpload:
+    cpiApiServiceKeyCredentialsId: wlgore-s
+    integrationFlowId: kkovelam-flow4
+    integrationFlowName: kkovelam-flow4
+    packageId: CICD
+    filePath: kkovelam-flow4.zip
